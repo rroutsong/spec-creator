@@ -1,0 +1,83 @@
+body, html {
+	background: #333;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+	color: #f2f2f2;
+	font-family: 'Quicksand', sans-serif;
+}
+
+input[type=text] {
+	color: #f2f2f2;
+	background: #848484;
+}
+
+input[type=button], select {
+	font-family: 'Quicksand', sans-serif;
+	color: #f2f2f2;
+	background: #848484;
+	border: 1px solid #f2f2f2;
+	font-size: 18pt;
+}
+
+#codeWrapGrid {
+	display: grid;
+	grid-column-gap: 50px;
+	padding: 0 1%;
+	grid-template-columns: 48.4% 48.4%;
+}
+
+#codeWrapGrid pre code {
+	font-size: 10pt;
+	line-height: 12pt;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#codeWrapGrid pre, #codeWrapGrid pre code {
+	max-height: 600px;
+}
+
+#creatorInputs {
+	width: 80%;
+	padding: 20px 10%;
+}
+
+.inputPad {
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+
+.inputPad label {
+	width: 25%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.inputPad input {
+	width: 75%;
+	border: 1px solid #f2f2f2;
+	padding: 4px;
+}
+
+.inputPad label, .inputPad input {
+	line-height: 16pt;
+	font-size: 12pt;
+}
+
+
+
+#creatorInputs label {
+	text-align: right;
+	color: #f2f2f2;
+}
+
+#addToWrap {
+	width: auto;
+	text-align: center;
+}
