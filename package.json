@@ -1,0 +1,26 @@
+{
+  "name": "spec-creator",
+  "version": "0.0.1",
+  "description": "GUI interface for creating KBase module spec.json and display.yaml files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rroutsong/spec-creator.git"
+  },
+  "keywords": [
+    "KBase",
+    "SDK",
+    "KBase",
+    "spec.json",
+    "display.yaml"
+  ],
+  "author": "Ryan Routsong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rroutsong/spec-creator/issues"
+  },
+  "homepage": "https://github.com/rroutsong/spec-creator#readme"
+}
